@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e9ecef;
+            color: #343a40;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 120px; /* Add padding to offset fixed header */
+        }
+
+        #main-info {
+            padding: 30px;
+            background: #fff;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        #main-info img {
+            border-radius: 50%;
+            margin: 20px 0;
+            width: 150px; /* Set the desired width */
+            height: 150px; /* Set the desired height */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about, .skills, .contact {
+            background: #fff;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .about h2, .skills h2, .contact h2 {
+            text-align: center;
+            color: #007bff;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .about p, .skills ul, .contact p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .skills ul li:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #0056b3;
+        }
+
+        footer {
+            background: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 1000;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asim</h1>
+        <p>Web Developer and YOUTUBE service provider </p>
+    </header>
+
+    <div class="container">
+        <section id="main-info">
+            <img src="asm.png" alt="Your Photo">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Asim, a web developer and YOUTUBE service provider with a passion for creating stunning and functional websites. Explore my portfolio to see some of my work and learn more about me.</p>
+        </section>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am Asim, a 20-year-old undergraduate in my 3rd year in the Department of Information Technology. My expertise includes HTML, CSS, JavaScript, PHP, enabling me to create dynamic, responsive, and user-friendly websites. YOUTUBE service provider where I provides YOUTUBE subscriber, Likes, watchtime, SEO</p>
+            <p>I combine creativity and technical proficiency to develop visually appealing and efficient web solutions. My skills in front-end and back-end development allow me to handle everything from elegant layouts and interactive user experiences to server-side programming and database management. My experience with WordPress adds to my ability to create content-rich, easily manageable sites.</p>
+            <p>I am committed to continuous learning and staying updated with the latest web development trends. I am eager to collaborate on innovative projects and contribute to impactful solutions in the tech industry.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>YOUTUBE</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Mobile: +92 3063514611</p>
+            <p>Email: <a href="#">Asim@gmail.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </div>
+<br><br><br>
+    <footer>
+        <p>&copy; 2024 Asim</p>
+    </footer>
+</body>
+</html>
